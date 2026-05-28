@@ -20,17 +20,13 @@ export default function Planeador() {
         </div>
 
         <nav className="enlaces">
-          <Link activeClass="enlace active" href="/" className="enlace">
+          <Link activeClass="active" href="/" className="enlace">
             Inicio
           </Link>
-          <Link activeClass="enlace active" href="/personas" className="enlace">
+          <Link activeClass="active" href="/personas" className="enlace">
             Personas
           </Link>
         </nav>
-
-        <div className="header-izq">
-          <div className="usuario"> IF </div>
-        </div>
       </header>
 
       <div className="barra-superior">
